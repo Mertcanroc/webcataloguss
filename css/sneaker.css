@@ -1,0 +1,309 @@
+/* CSS Variables */
+:root{
+    --headers: #202125;
+    --background:  #ffffff;
+    --grey: #858585;
+    --lightgrey: #d2d2d2;
+    --shadow: 0 1px 5px rgba(0, 0, 0, 0.473);
+    --hover: 0 3px 10px rgba(0, 0, 0, 0.205);
+    --header-background: #1a3a3a;
+    --white: #F2f3d9;
+}
+
+
+img {
+    border-radius: 5%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.02); /* Increase the scale to zoom in */  
+    transform-origin: center center; /* Set the transform origin to the center */
+}
+
+
+
+.card1 {
+    margin-left: 35%;
+    border: 2px solid rgb(129, 123, 123);
+    height: 350px;
+    width: 350px;
+    border-radius: 5%
+}
+
+.card2 {
+    margin-left: 65%;
+    border: 2px solid rgb(129, 123, 123);
+    height: 350px;
+    width: 350px;
+    border-radius: 5%
+}
+
+main {
+    margin-top: 150px;
+    grid-area: mn;
+    height: 100vh;  
+    text-align: center;
+    color: white;
+}
+
+.footerp {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.products {
+    text-align: center;
+    font-size: 40px;
+}
+
+/* navbar & header*/
+.wrapper { 
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "hd"
+    "mn"
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 15px; 
+    transition: transform .2s;
+}
+
+a:hover {
+    border-radius: 5mm;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.kijkshop:hover {
+    text-decoration: none;
+    
+}
+
+
+.kijkshop {
+    margin-left: 15px;
+    font-family: "Phonk Contrast DEMO";
+}
+
+.about-us {
+    margin-left: 1000px;
+}
+
+header {
+    background-color: var(--header-background);
+    height: 50px;
+    grid-area: hd;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+body{
+    background-color: var(--background);
+    background: url(../img/NMD-Black-Cover.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    background-origin: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+    background-color: var(--lightgrey);
+    font-family:monospace;
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    margin: 0px 10px 10px 10px;
+    transition-duration: 0.4s;
+    border: 1px solid rgb(148, 148, 148);
+}
+
+.btn:hover{
+    box-shadow: var(--shadow);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 19.4px;
+    background-color: #e6e6e6;
+}
+#btn1 {
+    margin-left: 27%;
+}
+#btn2 {
+    margin-left: 30%;  
+}
+
+h3{
+    font-family: 'Roboto Mono', monospace;
+    color: var(--headers);
+    margin: 0px 325px 0px 325px;
+    padding: 20px 0px;
+}
+
+.btn1h {
+    margin-left: 37%;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.btn2h {
+    margin-left: 30%;
+    width: 150px;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.navbar {
+    text-align: center;
+    height: 80px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* BACKGROUND */
+.background-container{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+}
+
+/* PRODUCTS */
+.product-container{
+    margin-left: 23%;
+    margin-right: 23%;
+    display:grid;
+    grid-template-columns: 350px 350px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+
+.card{
+    background-color: var(--grey);
+    min-height: 350px;
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}
+
+.shoe-img{
+    border-radius: 5px;
+}
+
+.card h4{
+    margin: 20px 10px 15px 15px;
+}
+
+
+.sneaker1{
+    height: 350px;
+    width: 350px;
+}
+
+.sneaker2{
+    height: 350px;
+    width: 350px;
+}
+
+.sneaker3{
+    background: url(../img/Airmax-97.jpg);
+    min-height: 250px;
+}
+
+.sneaker4{
+    background: url(../img/NMD-R1.jpg);
+    min-height: 250px;
+}
+
+.about{
+    min-height: 200px;
+    margin: 150px 0px 50px 0px;
+    padding: 25px 50px;
+    background-color: var(--lightgrey);
+    text-align: center;
+}
+
+.about h2{
+    font-size: 32px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.about p{
+    font-size: 20px;
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: var(--grey);
+}
+
+footer p{
+    font-family: 'Roboto Mono', monospace;
+    color: var(--lightgrey);
+    font-size: 14px;
+    padding: 25px;
+}
+
+/* Media Queries */
+@media(max-width:1050px){
+    h3{
+        margin: 0px 0px 0px 50px;
+        padding: 20px 0px;
+    }
+    .product-container{
+        display: inline;
+        gap: 10px;
+        margin: auto;
+    }
+    .card{
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:800px){
+    .contact-form{
+        min-width: 500px;
+    }
+    .contact-form h3{
+        font-size: 20px;
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:700px){
+    h3{
+        margin: 0px 0px 0px 50px;
+        padding: 20px 0px;
+    }
+    .banner h1{
+        font-size: 36px;
+    }
+}

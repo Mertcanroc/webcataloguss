@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h2, p {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+/*font import ↓*/
+@import url(https://db.onlinewebfonts.com/c/59c1782846fdca2c567f9e96af977c37?family=Phonk+Contrast+DEMO);
+@font-face {
+    font-family: "Phonk Contrast DEMO";
+    src: url("https://db.onlinewebfonts.com/t/59c1782846fdca2c567f9e96af977c37.eot");
+    src: url("https://db.onlinewebfonts.com/t/59c1782846fdca2c567f9e96af977c37.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/59c1782846fdca2c567f9e96af977c37.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/59c1782846fdca2c567f9e96af977c37.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/59c1782846fdca2c567f9e96af977c37.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/59c1782846fdca2c567f9e96af977c37.svg#Phonk Contrast DEMO")format("svg");
+}
+
+
+a {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+:root {
+    --header-background: #1a3a3a;
+    --white: #F2f3d9;
+}
+
+.wrapper {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "hd"
+    "mn"
+    ;
+}
+
+header {
+    background-color: var(--header-background);
+    height: 50px;    
+    grid-area: hd;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    border: 1px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+main {
+    margin-top: 50px;
+    color: white;
+}
+
+button {
+    border: 1px solid black;
+    background-color: #1a3a3a;
+    height: 50px;
+    width: 400px;
+    transition: transform .2s;
+    color: white; 
+    font-size: 20px;
+}
+
+button:hover {
+    opacity: 80%;
+    transition: 0.2s;
+}
+
+a {
+font-size: 25px;
+text-decoration: none;
+color: white;
+padding: 15px; 
+transition: transform .2s;
+}
+
+a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.kijkshop:hover {
+    text-decoration: none;
+}
+
+.kijkshop {
+    margin-left: 15px;
+    font-family: "Phonk Contrast DEMO";
+}
+
+.about-us {
+    margin-left: 1000px;
+}
+
+.card {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
+.product-text {
+    padding: 50px;
+}
+
+.product-text > .description {
+    width: 600px;
+}
+
+.price {
+    font-size: 20px;
+    color: red;
+}
+
+img {
+    width: 500px;
+    padding: 40px;
+    border: 1px solid gray;
+}
+
+

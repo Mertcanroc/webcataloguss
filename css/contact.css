@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*font import ↓*/
+@import url(https://db.onlinewebfonts.com/c/59c1782846fdca2c567f9e96af977c37?family=Phonk+Contrast+DEMO);
+@font-face {
+    font-family: "Phonk Contrast DEMO";
+    src: url("https://db.onlinewebfonts.com/t/59c1782846fdca2c567f9e96af977c37.eot");
+    src: url("https://db.onlinewebfonts.com/t/59c1782846fdca2c567f9e96af977c37.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/59c1782846fdca2c567f9e96af977c37.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/59c1782846fdca2c567f9e96af977c37.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/59c1782846fdca2c567f9e96af977c37.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/59c1782846fdca2c567f9e96af977c37.svg#Phonk Contrast DEMO")format("svg");
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    color: var(--header-background);
+}
+
+p, label, a {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+:root {
+    --header-background: #1a3a3a;
+    --white-background: #F2f3d9;
+}
+
+.wrapper {
+    background-image: url("/img/Animated\ Shape\ for\ contact.svg"); 
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "hd"
+    "mn"
+    ;
+}
+
+header {
+    background-color: var(--header-background);
+    height: 50px;
+    grid-area: hd;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    margin-top: 150px;
+    grid-area: mn;
+    height: 100vh;
+    color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "cl cl cr";
+}
+
+.container-left {
+    grid-area: cl;
+    margin-left: 100px;
+}
+
+.container-right {
+    grid-area: cr;
+    margin-right: 100px;
+    margin-top: 150px;
+    width: 250px;
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 15px; 
+    transition: transform .2s;
+}
+
+a:hover {
+    border-radius: 5mm;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.kijkshop:hover {
+    text-decoration: none;
+}
+
+.kijkshop {
+    margin-left: 15px;
+    font-family: "Phonk Contrast DEMO";
+}
+
+/* om de rechter links helemaal in de hoek te zetten */
+.about-us {
+    margin-left: 1000px;
+}
+
+/* dit zijn code om te checken of de input valid is */
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.ig-icon {
+    height: 30px;
+}
+
+.andre {
+    display: flex;
+    align-items: center;
+}
+
+.damian {
+    display: flex;
+    align-items: center;
+}
+
+.mert {
+    display: flex;
+    align-items: center;
+}
+
+#subject {
+    width: 400px;
+    height: 200px;
+}
+
+.send-button {
+    border: none;
+    width: 100px;
+    height: 20px;
+    border-radius: 1mm;
+    transition: transform 0.2s;
+}
+
+.send-button:hover {
+    transform: scale(1.1);        
+}
+
+
+
+
