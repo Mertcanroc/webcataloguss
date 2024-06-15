@@ -1,0 +1,20 @@
+[
+    {
+        "title": "BMW M5",
+        "description": "De BMW M5 is een high-performance sportlimousine met een krachtige 4.4-liter twin-turbo V8-motor. Het accelereert van 0 tot 100 km/u in ongeveer 3,4 seconden en heeft een elektronisch begrensde topsnelheid van 250 km/u, die optioneel kan worden verhoogd tot 305 km/u met het M Driver's Package. Met zijn geavanceerde technologieën zoals xDrive vierwielaandrijving en geavanceerde rijhulpsystemen biedt de M5 een unieke mix van prestaties en luxe. Dit maakt het een populaire keuze voor liefhebbers van high-performance auto's die ook op zoek zijn naar dagelijkse bruikbaarheid.",
+        "price": "leverbaar vanaf: €175.795 ",
+        "imageUrl": "/img/bmw-m5-competition-facelift-2020-3-scaled-e1592377935270.webp"
+    },
+    {
+        "title": "BMW M4",
+        "description": "De BMW M4 is een high-performance sportcoupé met een krachtige 3.0-liter twin-turbo zescilinder motor. Het accelereert van 0 tot 100 km/u in ongeveer 4,2 seconden (met het optionele Competition Package kan dit nog sneller zijn). De elektronisch begrensde topsnelheid is typisch 250 km/u, maar kan ook verhoogd worden met optionele pakketten. Met zijn sportieve design, geavanceerde technologieën en indrukwekkende prestaties biedt de M4 een opwindende rijervaring voor liefhebbers van high-performance auto's.   ",
+        "price": "leverbaar vanaf: €149.035 ",
+        "imageUrl": "/img/m4.webp"
+    },
+    {
+        "title": "BMW M3",
+        "description": "De BMW M3 is een high-performance sport sedan met een krachtige 3.0-liter twin-turbo zescilinder motor. Het versnelt van 0 tot 100 km/u in ongeveer 4,1 seconden (met het optionele Competition Package kan dit nog sneller zijn). De topsnelheid is elektronisch begrensd op 250 km/u, maar kan met optionele pakketten worden verhoogd. Met zijn dynamische design, geavanceerde technologieën en indrukwekkende rijprestaties biedt de M3 een opwindende combinatie van prestaties en luxe, waardoor het een geliefde keuze is onder liefhebbers van sportieve auto's.",
+        "price": "leverbaar vanaf: €138.967 ",
+        "imageUrl": "/img/prueba-bmw-m3-competition-2021.jpg"
+    }
+]

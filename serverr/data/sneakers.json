@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Air jordan 4 Zen Master",
+        "description": "The canvas upper with a sublimated tie-dye graphic creates a visual wonder to get lost in, while the galaxy-like pattern pairs with black and Cement Grey accents for a balanced edge that bridges zen-like style with street-smart fashion.",
+        "brand": "Nike jordan",
+        "price": "249.5$",
+        "imageUrl": "/sneakerimg/Image0.jpg"
+    },
+    {
+        "title": "Air jordan 4 oreo ",
+        "description": "The Air Jordan 4 Retro 'White Oreo' features a design theme that recalls the original 'Oreo' AJ4 from 1999. The black tumbled leather upper of the older shoe is replaced by a clean white finish, the speckled molded eyelets remain same.",
+        "brand": "Nike jordan",
+        "price": "554.99$",
+        "imageUrl": "/sneakerimg/jordan4oreo.jpg"
+    },
+    {
+        "title": "Air jordan 4 Pale citron",
+        "description": "The Air Jordan 4 Retro cemented itself as an instant cultural icon with its distinct tailoring and street appeal in 1989. Celebrating the style's 30th anniversary, this 'Pale Citron' update recodes the classic with splash graphics.",
+        "brand":  "Nike jordan",
+        "price": "488$",
+        "imageUrl": "/sneakerimg/jordan4citron.jpg"
+    }
+]

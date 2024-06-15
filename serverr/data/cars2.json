@@ -1,0 +1,20 @@
+[
+    {
+        "title": "AUDI RS7",
+        "description": "De Audi RS7 is een high-performance sportwagen met een krachtige 4.0-liter twin-turbo V8-motor. Het versnelt van 0 tot 100 km/u in ongeveer 3,6 seconden, met een elektronisch begrensde topsnelheid van 250 km/u, die kan worden verhoogd tot 305 km/u met het optionele Dynamic Plus-pakket. Net als de RS6 beschikt de RS7 over quattro vierwielaandrijving en geavanceerde transmissietechnologieën voor optimale prestaties. Met zijn elegante sportieve design, luxe interieur en indrukwekkende prestaties biedt de Audi RS7 een buitengewone rijervaring op het hoogste niveau van de high-performance auto's.",
+        "price": "leverbaar vanaf: €206.640 ",
+        "imageUrl": "/img/audi-rs7-grey-front-side-2020-750.jpg"
+    },
+    {
+        "title": "AUDI RS6",
+        "description": "De Audi RS6 is een high-performance sportwagen met een 4.0-liter twin-turbo V8-motor. Het accelereert van 0 tot 100 km/u in ongeveer 3,6 seconden en heeft een elektronisch begrensde topsnelheid van 250 km/u, die kan worden verhoogd tot 305 km/u met het optionele Dynamic Plus-pakket. De RS6 beschikt over quattro vierwielaandrijving en geavanceerde transmissietechnologieën voor optimale prestaties. Met zijn sportieve design, luxe interieur en indrukwekkende prestaties is de Audi RS6 een icoon in de wereld van high-performance auto's.",
+        "price": "leverbaar vanaf: €215.648 ",
+        "imageUrl": "/img/abt-audi-rs6-legacy-edition.jpg"
+    },
+    {
+        "title": "AUDI RS3",
+        "description": "De Audi RS3 is een compacte sportwagen met een krachtige 2.5-liter vijfcilinder turbomotor. Het accelereert van 0 tot 100 km/u in ongeveer 3,8 seconden, met een elektronisch begrensde topsnelheid van 250 km/u. Deze auto biedt een uitstekende combinatie van prestaties en wendbaarheid dankzij quattro vierwielaandrijving en geavanceerde transmissietechnologieën. Met zijn opvallende design, sportieve interieur en geavanceerde technologieën biedt de Audi RS3 een opwindende rijervaring voor liefhebbers van compacte sportauto's.",
+        "price": "leverbaar vanaf: €104.616 ",
+        "imageUrl": "/img/30c5df2a70d68b1d5927c7c7a9580c15.jpg"
+    }
+]

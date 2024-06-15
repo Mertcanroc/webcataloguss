@@ -1,0 +1,20 @@
+[
+    {
+        "title": "A class",
+        "description": "De Mercedes A-Klasse, specifiek de Mercedes-AMG A45 S, is een compacte luxeauto met een krachtige 2.0-liter viercilinder turbomotor. Deze auto accelereert van 0 tot 100 km/u in slechts 3,9 seconden, met een elektronisch begrensde topsnelheid van 250 km/u. Met geavanceerde technologieën zoals het MBUX-infotainmentsysteem en hoogwaardige interieurmaterialen biedt de A-Klasse een mix van sportiviteit en luxe. Dit model is populair vanwege zijn sportieve uitstraling en indrukwekkende prestaties, waardoor het een aantrekkelijke keuze is voor liefhebbers van compacte luxeauto's.",
+        "price": "leverbaar vanaf: €39.862 ",
+        "imageUrl": "/img/a45-dyn.jpg"
+    },
+    {
+        "title": "C class",
+        "description": "De Mercedes C-Klasse is een luxe sedan met verschillende motoropties, waaronder krachtige benzine- en dieselvarianten. De C63 AMG, een performance-georiënteerde versie, kan van 0 tot 100 km/u accelereren in ongeveer 4 seconden, met een topsnelheid van elektronisch begrensd op 250 km/u. Deze sedan biedt een combinatie van comfort, luxe en sportieve prestaties, met geavanceerde technologieën en hoogwaardige materialen in het interieur, waardoor het een populaire keuze is in zijn klasse.",
+        "price": "leverbaar vanaf: €65.768 ",
+        "imageUrl": "/img/AMGCV43-MAIN_i.webp"
+    },
+    {
+        "title": "S class",
+        "description": "De Mercedes S-Klasse is het vlaggenschipmodel van Mercedes-Benz, bekend om zijn luxe, comfort en geavanceerde technologieën. De S-Klasse biedt verschillende motoropties, waaronder krachtige V8- en V12-motoren. De prestatiecijfers variëren afhankelijk van de gekozen motorvariant, maar de acceleratie van 0 tot 100 km/u kan in zo'n 4 tot 6 seconden worden bereikt, terwijl de topsnelheid vaak elektronisch wordt begrensd op 250 km/u. Met zijn verfijnde design, luxueuze interieur en geavanceerde rijassistentiesystemen biedt de S-Klasse een ongeëvenaarde rijervaring op het gebied van luxe en comfort.",
+        "price": "leverbaar vanaf: €132.524 ",
+        "imageUrl": "/img/1-mercedes-benz-s-class-2022-road-test-review-tracking-front.webp"
+    }
+]

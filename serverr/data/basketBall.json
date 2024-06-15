@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Zoom Kobe 5s ",
+        "description": "The canvas upper with a sublimated tie-dye graphic creates a visual wonder to get lost in, while the galaxy-like pattern pairs with black and Cement Grey accents for a balanced edge that bridges zen-like style with street-smart fashion.",
+        "brand": "Nike",
+        "price": "399.99$",
+        "imageUrl": "/sneakerimg/zoomkobe5.jpg"
+    },
+    {
+        "title": "LeBron NXXT gen AMPD",
+        "description": "The large forefoot Air Zoom unit is curved to bend in multiple directions. It provides energy return for fast and responsive cornering and offers a flexible court feel that moves naturally with your foot. ",
+        "brand": "Nike",
+        "price": "189.99$",
+        "imageUrl": "/sneakerimg/lebronnxxtgenampd.jpg"
+    },
+    {
+        "title": "Nike Air Presto 'doernbecher' ",
+        "description": "Her Nike Air Presto features all the things that bring her joy, springtime, flowers, especially cookies which are seen around the toebox with Ky's name featured on the tongue inside a flower.",
+        "brand":  "Nike",
+        "price": "266.99$",
+        "imageUrl": "/sneakerimg/airpresto.jpg"
+    }
+]
