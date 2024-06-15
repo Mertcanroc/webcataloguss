@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --header-background: #1a3a3a;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 9.4%;
+    margin-top: 5%;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 2%;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+
+.card h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+.card .descripition {
+    background-color: rgb(130, 179, 176);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: #132b2b;
+    font-weight: bold;
+    border: 1px solid #091414;
+    border-left: none;
+    border-right: none;
+}
+
+.card .brand {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;  
+}
+
+.card .price {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card > img {
+    text-align: center;
+    height: 200px;
+}
+
+
+.wrapper { 
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "hd"
+    "mn"
+}
+
+.kijkshop, .about-us, .contact, .clothing, .cars, .jordans, .basketball  {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    padding: 15px; 
+    transition: transform .2s;
+}
+
+.kijkshop:hover, 
+.about-us:hover, 
+.contact:hover, 
+.clothing:hover, 
+.cars:hover, 
+.jordans:hover, 
+.basketball:hover {
+    border-radius: 5mm;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+button {
+    background-color: var(--header-background);
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    transition: transform 0.2s;
+    border: 1px solid white;
+}
+
+button:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+
+.kijkshop:hover {
+    text-decoration: none;
+    
+}
+
+
+.kijkshop {
+    margin-left: 15px;
+    font-family: "Phonk Contrast DEMO";
+}
+
+.about-us {
+    margin-left: 1000px;
+}
+
+header {
+    background-color: var(--header-background);
+    height: 50px;
+    grid-area: hd;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+button {
+    width: 300px;
+    margin-left: 42.4%;
+    margin-top: 6%;
+    font-size: larger;
+    border-radius: 5%;
+    border: 1px solid black;
+}
